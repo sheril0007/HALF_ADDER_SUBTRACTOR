@@ -1,4 +1,4 @@
-# HALF_ADDER_SUBTRACTOR
+<img width="1217" height="252" alt="image" src="https://github.com/user-attachments/assets/eb5079e5-4162-498c-812f-34457195859d" /># HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
@@ -50,12 +50,26 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
+ module FAHA1 (a,b,c,x,y,z,sum,dif,car,bor); input a,b,c,x,y,z; output sum,dif,car,bor; assign sum = a^b^c; assign car = a&b |
+ a&c | b&c; assign dif = x^y^z; assign bor = ~x&z | ~x&y | y&z; endmodule
+
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by:Sheril.p RegisterNumber:25012800*/
 
 **RTL Schematic**
 
+<img width="887" height="637" alt="image" src="https://github.com/user-attachments/assets/2bc38c0c-382c-4feb-ae1e-25a51da91894" />
+
+
 **Output/TIMING Waveform**
 
+<img width="1217" height="252" alt="image" src="https://github.com/user-attachments/assets/da20df87-cfe0-48f0-ace6-61802c42d3a4" />
+
+
 **Result:**
+
+Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software
+
+
+
